@@ -227,36 +227,6 @@ output/
 - **Topik:** Contour Detection, Edge Detection, Integral Projection
 - **Semester:** 5
 
-## 🐛 Bug Fixes
-
-### v2.2 (Current - October 25, 2025)
-✅ **MAJOR FIX:** Replaced cv2.imshow with Matplotlib (fix OpenCV GUI error)
-✅ **UI Responsiveness:** Fixed grid weights - window sekarang fully responsive
-✅ Added minimum window size (800x600)
-✅ Preview dan log area sekarang auto-resize
-✅ Updated button labels untuk clarity
-✅ Increased default window size ke 1000x750
-
-### v2.1
-✅ Added "Save Output" feature untuk simpan hasil ke folder output/
-✅ Auto-create folder output/ saat aplikasi dijalankan
-✅ Reorganized structure: file lama dipindah ke folder archive/
-✅ Added folder images/ untuk mengorganisir gambar input
-✅ Improved file naming dengan timestamp
-
-### v2.0
-✅ Fixed line wrapping logic di `countour-detection-alt-with-plt.py`
-✅ Refactored semua modul menjadi fungsi reusable
-✅ Dibuat UI terpadu dengan tkinter
-✅ Added error handling di semua modul
-✅ Added preview gambar di UI
-✅ Added parameter adjustment di UI
-
-### v1.0 (Original)
-- Script standalone untuk setiap modul
-- Manual path input
-- No centralized UI
-
 ## 📄 License
 
 Educational project - Kuliah Semester 5
